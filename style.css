@@ -1,0 +1,195 @@
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	background-color: wheat;
+}
+
+body {
+	font-size:18px;
+	font-family:Calibri,Arial;
+
+}
+
+.header {
+	width:1140px;
+	margin:20px auto 10px auto;
+	padding:30px;
+	font-size:40px;
+	text-align:center;
+	background-image:url(bg-image.jpg);
+	background-size:cover;
+}
+
+.container {
+	width:1140px;
+	margin:20px auto 10px auto;
+	position:relative;
+}
+
+.article {
+	width:75%;
+	display:inline-block;
+    float: left;
+	padding-right:30px;
+}
+
+.row {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+h1,h2,h3,h4,h5{
+	color:#0cbcf2;
+}
+
+h1 {
+	font-size:40px;
+	margin-bottom:20px;
+}
+
+h2 {
+	font-size:30px;
+	margin-bottom:10px;
+}
+h3{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+
+h4{
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+
+
+.article-text {
+	text-align:justify;
+	margin:20px 0;
+}
+
+.article-image {
+	height:auto;
+	width:100%;
+
+}
+
+.other-posts {
+	width:25%;
+	margin:20% auto 0 auto;
+	display:inline-block;
+}
+
+.blog-post {
+	font-size: 150px;
+	margin-bottom:50px;
+	line-height: 1.5;
+	font-weight: 300px;
+}
+.other-posts img {
+	width:80%;
+	height:300px;
+}
+
+.other-title {
+	font-size:16px;
+	color: deeppink;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+/**** footer ****/
+
+footer{
+    
+	padding: 70px;
+	font-size:80%;
+	color:#888;
+}
+
+.footer-nav {
+	float:left;
+}
+
+.social-links {
+	float:right;
+}
+
+.footer-nav li{
+	list-style:none;
+	display:inline-block;
+	margin-right:20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	color:#888;
+	text-decoration: none;
+	-webkit-transition:color 0.2s;
+	transition:color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+	color:#fff;
+}
+
+.social-links li {
+	list-style:none;
+	display:inline-block;
+	margin-left:20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 160%;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-tiktok,
+.fa-youtube,
+.fa-instagram {
+	-webkit-transition:color 0.2s;
+	transition:color 0.2s;
+}
+
+.fa-facebook-f:hover {
+	color:#3b5998;
+}
+
+.fa-twitter:hover {
+	color:#00aced;
+}
+
+.fa-google-plus-g:hover {
+	color:#dd4b39;
+}
+
+.fa-instagram:hover {
+	color:#b12121;
+}
+.fa-tiktok{
+    color: rgb(95, 25, 92);
+}
+.fa-youtube-square{
+    color: #530909;
+}
+
+footer p {
+	text-align:center;
+	margin-top:50px;
+	line-height:1.5;
+}
+
+/***.finance{
+	background-color: aquamarine;
+	width: 1000px;
+	height: 100px;
+	text-align: justify;
+	color: black;
+}
